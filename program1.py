@@ -1,15 +1,5 @@
 class Solution(object):
     def isValid(self, s):
-        """
-        :type s: str
-        :rtype: bool
-        """
-        pass
-
-
-
-class Solution(object):
-    def isValid(self, s):
         stack = []
         bracket_map = {')': '(', '}': '{', ']': '['}
         
@@ -22,12 +12,3 @@ class Solution(object):
                 stack.append(char)
         
         return not stack
-
-
-
-    
-
-
-
-  
-
